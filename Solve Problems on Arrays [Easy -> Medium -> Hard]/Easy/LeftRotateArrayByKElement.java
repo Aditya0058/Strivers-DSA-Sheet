@@ -19,8 +19,8 @@ public class LeftRotateArrayByKElement {
         reverse(i, n-1, arr);
         reverse(0, n-1, arr);
         //print arr
-        for(int j=0; j<n; j++ ){
-            System.out.print(arr[j]);
+        for(int j : arr ){
+            System.out.print(j);
         }
 
     }
